@@ -54,3 +54,14 @@
 		</event>
 	</choice>
 </event>
+
+<event>
+	<event name="ECHELON_QUICK_CASH">
+	<text>Arriving at this beacon you immidiately get a scrap transaction. You have no choice but to accept this sudden gift!</text>
+		<choice>
+			<text>Awesome!</text>
+			<item_modify>
+				<item type="scrap" min="50" max="50"/>
+			</item_modify>
+		</choice>
+</event>
